@@ -214,6 +214,7 @@ nav a{
 }
 .forth-para{
     margin-bottom: 75px;
+    height: 400px;
 }
 .under{
     display: grid;
@@ -221,7 +222,7 @@ nav a{
     grid-column-gap: 100px;
     margin-left: 200px;
     width: 250px;
-    height: 75pxpx;
+    height: 75px;
 }
 .facts-img{
     text-align: center;
@@ -265,6 +266,9 @@ nav a{
 
 
 /* ------------Fifth Part---------------- */
+.sponsor{
+     margin-top: 50px;
+}
 .main-title{
     font-weight: 700;
     font-size: 45px;
@@ -300,6 +304,47 @@ nav a{
     height: 100px;
 }
 
+
+/* ------Extra----------- */
+
+.about-me{
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 100px 150px;
+    text-align: center;
+ }
+ .section-title{
+   margin-bottom: 50px;
+   font-weight: 700;
+   font-size: 35px;
+   text-align: center;
+ }
+ .section-description{
+     color: #757575;
+     font-size: 18px;
+     margin-bottom: 30px;
+ }
+ .about-info-container{
+     display: flex;
+     justify-content: space-around;
+ }
+ .about .info-title{
+     font-size: 20px;
+     color: #757575;
+ }
+ .info-description{
+     font-weight: 700;
+     font-size: 20px;
+     color: #474747;
+ }
+ .about-info-container:hover{
+    transform: scale(1.3);
+    transition: transform 5s linear;
+ }
+
+
+ 
+
 .hide{
     display: none;
 }
@@ -332,6 +377,9 @@ nav a{
     nav a{
         text-align: left;
         padding: 0px 10px;
+        display: block;
+        margin-left: 75px;
+        padding-bottom: 15px;
     }
     .press{
         text-align: center;
@@ -381,12 +429,13 @@ nav a{
         /* margin-right: 30px; */
     }
     .right-part {
-        /* margin-right: 15px; */
+         margin-right: 20px;
         margin-left: 30px;
         position: relative;
     }
     .part{
         width: 100%;
+        height: 100%;
     }
     .right-part img{
         width: 100%;
@@ -399,4 +448,73 @@ nav a{
         width: 200px;
         height: 150px;
     }
+
+    /* --------Forth-------- */
+    .four-flex{
+        margin-left: 25px;
+        margin-right: 20px;
+        margin-top: 150px;
+    }
+    .under{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 75px;
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
+
+    /* --------Fifth---------- */
+    .main-title{
+        text-align: left;
+        margin-top: 900px;
+    }
+    .fifth-first .sub-header{
+        text-align: left;
+        margin-right: 30px;
+    }
+    .sponsor-media{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sponsor-media .sponsor-img{
+        margin: 20px 15px 30px 0px;
+    }
+
+    /* ----------last Part----- */
+    .the-last{
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #424242;
+        padding-top: 40px;
+    }
+    .last-section{
+        margin-top: 50px;
+    }
+    .copywrite{
+        margin: 50px 20px;
+        /* width: 100%; */
+        /* height: 150px; */
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    /* ------Extra----------- */
+
+.about-me{
+    padding: 50px 50px;
+    text-align: center;
+ }
+ .section-description{
+     color: #757575;
+     font-size: 18px;
+     margin-bottom: 30px;
+ }
+ .about-info-container{
+    flex-direction: column;
+ }
+ .about-info-container:hover{
+    transform: scale(1.3);
+    transition: transform 5s linear;
+ }
+    
+
+
 }
