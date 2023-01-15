@@ -1,0 +1,402 @@
+
+/* ---Font Work-Sans---- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ----First Section------- */
+.container{
+    width: 100%;
+    /* height: 1322px; */
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+/* ----------First Part----------- */
+
+.main{
+    display: flex;
+}
+.second{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.under-one{
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #131313; 
+    margin-top: 20px
+}
+.under-two{
+    justify-content: space-between;
+    margin-left: 600px;
+    margin-top: 75px;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #424242;
+    padding: 0px 20px;
+}
+.write{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+}
+.sub-write{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+}
+.press{
+    text-align: center;
+    margin-left: 680px;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.button-write{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/* .banner{
+    margin-left: 100px;
+    margin-right: 125px;
+} */
+.forth{
+    margin-left:150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+.forth img{
+    width: 1150px;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+
+
+/* ----------Second Part------------ */
+.second-bar{
+    display: flex;
+    margin-bottom: 70px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+    margin-left: 100px;
+    grid-gap: 24px;
+}
+.main-content{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.bold{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.orange-bold{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.press-one{
+    text-align: center;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+}
+.description{
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right: 75px;
+}
+
+
+
+
+/* -----------Third Part------------- */
+.third-container{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.heading-third{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-left: 10px;
+    border-left: 8px solid orange;
+}
+.sub-header{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.main-point{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.third-left{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 35px;
+    margin-left: 100px;
+}
+.part{
+    width: 586px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.right-part {
+    margin-right: 85px;
+    margin-left: 30px;
+    position: relative;
+}
+.right-part .img-button{
+    position: absolute;
+    top: 88%;
+    /* left: 0%; */
+    right: 60%;
+    background: #FF900E;
+    border-radius: 8px;
+    width: 300px;
+    height: 150px;
+}
+
+.bold-con{
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.not-bold{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;  
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+/* ----------Forth Part-------------- */
+.heading-forth{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.forth-para{
+    margin-bottom: 75px;
+}
+.under{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 100px;
+    margin-left: 200px;
+    width: 250px;
+    height: 75pxpx;
+}
+.facts-img{
+    text-align: center;
+    /* padding-left: 70px;
+    padding-top: 50px; */
+    margin-left: 70px;
+    /* border: 1px solid; */
+}
+.four-flex{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.content{
+    font-size: 45px;
+    text-align: center; 
+    color: #424242;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    /* padding-left: 50px;
+    padding-bottom: 25px; */
+    /* margin-bottom: 150px; */
+
+}
+.content-one{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-bottom: 75px;
+    text-align: center; 
+    margin-top:0; 
+    /* width: 160px; */
+}
+.box{
+    /* padding: 20px 15px; */
+    border: 2px solid orange;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px; 
+}
+
+
+
+/* ------------Fifth Part---------------- */
+.main-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+}
+.fifth-first .sub-header{
+    text-align: center;
+}
+.sponsor-media{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 50px 60px 50px 120px;
+}
+
+
+
+/* ------------------Last Part------------------- */
+.the-last{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #424242;
+    padding-top: 40px;
+}
+.last-section{
+    margin-top: 50px;
+}
+.copywrite{
+    margin: 50px 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.hide{
+    display: none;
+}
+
+
+
+
+/* ------------------------------------------------------------ */
+/* ----------------Media Quearies-------------------------- */
+/* --------------------------------------------------------------- */
+@media only screen and (max-width:576px) {
+
+    /* 1st Scene  */
+    .main{
+        flex-direction: column;
+    }
+    .second{
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 25px;
+    } 
+    .under-one{
+        margin-left: 30px; 
+        margin-top: 20px
+    }
+    .under-two{
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+    nav a{
+        text-align: left;
+        padding: 0px 10px;
+    }
+    .press{
+        text-align: center;
+        margin-left: 100px;
+        margin-bottom: 60px;
+    }
+    .forth{
+        margin-left:0px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .forth img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    /* ------second------- */
+    .second-bar{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .images{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    .description{
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    /* -----third----- */
+    .third-container{
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+    }
+    .third-left{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 25px;
+        width: 100%;
+        margin-left: 10px;
+        margin-bottom: 30px;
+        /* margin-right: 30px; */
+    }
+    .right-part {
+        /* margin-right: 15px; */
+        margin-left: 30px;
+        position: relative;
+    }
+    .part{
+        width: 100%;
+    }
+    .right-part img{
+        width: 100%;
+        height: 100%;
+    }
+    .right-part .img-button{
+        position: absolute;
+        top: 88%;
+        right: 20%;
+        width: 200px;
+        height: 150px;
+    }
+}
